@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "The Journey Into Coding"
+date:   2017-04-13 02:35:51 +0000
+---
+
+
+I have always had a passion for science, math and technology.  When I was deciding on a career path for college I never dreamed of being programmer, I was never exposed to it in high school and honestly didn't really have any knowledge or interest in it until a few years ago when I had the opportunity to teach robotics.  I began teaching lego robotics with Lego Mindstorms Education software for drag and drop programming and still use it for our robot challenges, but I also wanted to challenge my students to learn more about programming.  I found codehs.com that allows my students to have short lessons on a basic introduction to JavaScript, but still wanted to push them farther and began looking into programming with Arduino Uno boards.  Through this process I became involved with our high school FIRST robotics team, FRC 4610, The BearTecs who were looking for programming help with JavaScript to run the robot.  
+At this point I realized my students knew a lot more about writing code and programming than I do and decided I wanted to learn more about writing code.  The more I worked with my students and robotics teams, the more I realized that if I had been exposed to a robotics program or computer science back in high school I probably would have chosen a different major in college and ultimately made a different career choice.  No time like the present, right? So, I started looking at new careers that I could transition into from science and technology education without going back for my Masters degree, which I would like to go back for, but can't afford on a teacher's salary.  While searching for jobs I ran across a video about women making career changes into programming and thought "yes, this is what I want to do, but don't know how..." This video led me to coding bootcamp and here I am.  Enrolled in a full stack web development bootcamp with a BirchBox Women in Tech Scholarship, ready to learn more and make a career change!!!
+
