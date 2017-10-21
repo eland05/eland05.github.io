@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem"
-date:       2017-10-20 02:04:58 +0000
+date:       2017-10-19 22:04:58 -0400
 permalink:  cli_data_gem
 ---
 
@@ -19,6 +19,26 @@ I finally found the right selectors to access the data I needed for my CLI App a
     doc = Nokogiri::HTML(open("https://www.thebluealliance.com/"))
 
     event_rows = doc.search("tr")[1..5]
+    event_rows.each do |row|
+      @@all << event = self.new
+      event.name = row.search("td a").attr("title").text.strip
+      event.date = row.search("td time").text
+      event.location = row.search("td small").first.text
+      event_site = row.search("td a").attr("href")
+      event.site = "https://www.thebluealliance.com#{event_site}"
+    end
+  end
+```
+
+So today when I went to record my CLI Gem project walk through I realized that The Blue Alliance actually has 7 events listed for this week's events instead of 5, so I had to fix the code today, plus I knew if there were ever less than 5 events it would seriously break my code, so here is the updated code so that ensures the gem only scrapes the current number of current events.
+
+```
+  def self.scrape_events
+    doc = Nokogiri::HTML(open("https://www.thebluealliance.com/"))
+
+    event_table = doc.search("table.event-table")
+    event_rows = event_table.search("tr")[1..-1]
+
     event_rows.each do |row|
       @@all << event = self.new
       event.name = row.search("td a").attr("title").text.strip
