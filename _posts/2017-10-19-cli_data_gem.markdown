@@ -49,3 +49,6 @@ So today when I went to record my CLI Gem project walk through I realized that T
     end
   end
 ```
+
+Here is the link to my video walk through of my project:
+https://youtu.be/sQQ1gzKn9tk
