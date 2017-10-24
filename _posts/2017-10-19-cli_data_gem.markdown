@@ -51,4 +51,4 @@ So today when I went to record my CLI Gem project walk through I realized that T
 ```
 
 Here is the link to my video walk through of my project:
-[https://youtu.be/sQQ1gzKn9tk](http://)
+[https://youtu.be/sQQ1gzKn9tk](https://youtu.be/sQQ1gzKn9tk)
