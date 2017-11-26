@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Portfolio Project: RoboTeams"
-date:       2017-11-26 23:08:19 +0000
+date:       2017-11-26 18:08:20 -0500
 permalink:  sinatra_portfolio_project_roboteams
 ---
 
@@ -15,4 +15,7 @@ Team members will only belong to one team, but at the same time a team will have
 
 Team sponsors often sponsor more than one team(creating a has_many/has_many relationship), so I wanted every user to be able to see all of the sponsors, but I did not want users to be able to delete sponsors since that would mess with other teams sponsor lists.  Thus when creating a team you have checkboxes for each of the existing sponsors and a box to create a new one if you have one that is not on the list.  I also added a sponsor list page so that you can see all of the current sponsors, (edit their name if there is a mistake) and create new ones to assign to your teams there.
 
-While building this app I was surprised at how many files and folders I ended up creating for what seemed like pretty simple relationships between my objects.  I also need to go back and review over css stylsheets.  I ended up just including some inline styles in my layout.erb, but I know this is not the best way, it has just been a while since I worked with css stylesheets and I need to go back and refresh my memory.  I also need to work more with the flash messages and getting them to look the way I want them.
+While building this app I was surprised at how many files and folders I ended up creating for what seemed like pretty simple relationships between my objects.  I found that I tend to get involved in writing code and forget that I am suppsed to be committing my changes regularly, so I may be setting a timer to make sure I commit my changes on a more regular basis, not just when I am finished working for the day. I also need to go back and review over css stylsheets.  I ended up just including some inline styles in my layout.erb, but I know this is not the best way, it has just been a while since I worked with css stylesheets and I need to go back and refresh my memory.  In addition I need to work more with the flash messages and getting them to look the way I want them.
+
+
+[https://github.com/eland05/robo_teams_sinatra](https://github.com/eland05/robo_teams_sinatra)
